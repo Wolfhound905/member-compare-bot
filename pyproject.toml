@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "member-compare-bot"
+version = "0.1.0"
+description = "A bot that will download the member list into a csv, then see how many duplicate members there are."
+authors = ["Wolfhound905 <aiden8green@gmail.com>"]
+readme = "README.md"
+packages = [{include = "member_compare_bot"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+naff = {git = "https://github.com/NAFTeam/NAFF.git", rev = "dev"}
+pandas = "^1.5.3"
+
+[tool.poetry.group.dev.dependencies]
+black = "^22.12.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
