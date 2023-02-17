@@ -7,7 +7,7 @@ This is a bot that compares the members of two different Discord servers and dis
 1. Install python3.11 or later: [Download Python](https://www.python.org/downloads/)
 2. Clone the repository: `git clone https://github.com/wolfhound905/member-compare-bot`
 3. Navigate to the project directory: `cd member-compare-bot`
-4. Install the required Python packages: `pip install -r requirements.txt`
+4. Install the required Python packages: `pip install -r requirements.txt` or `poetry install && poetry shell`
 5. Create a new Discord bot: [Discord Developer Portal](https://discord.com/developers/applications)
 6. Make a bot and give it the guild member intent
 7. At the top of `main.py` put in your 2 guild ids
